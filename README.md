@@ -5,4 +5,8 @@ git clone -b mine https://github.com/Edge-coordinates/hexo-theme-butterfly.git .
 git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git
 git clone https://github.com/wasteland-institute/Book_arrangement.git ./source/_posts
 git pull --ff-only
+
+git fetch --all
+git reset --hard origin/master (这里master要修改为对应的分支名)
+git pull
 ```
