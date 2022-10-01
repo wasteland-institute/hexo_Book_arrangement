@@ -7,6 +7,6 @@ git clone https://github.com/wasteland-institute/Book_arrangement.git ./source/_
 git pull --ff-only
 
 git fetch --all
-git reset --hard origin/master (这里master要修改为对应的分支名)
+git reset --hard origin/main
 git pull
 ```
